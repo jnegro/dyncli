@@ -1,0 +1,10 @@
+20151120 - jnegro - INF-65 Revamped arguments used in helpers so that they are consistent.  Also added auto-detect for zone in fqdn
+20151120 - jnegro - INF-66 Script output has a new formatter that was separated out of the module code, and is more consistent
+20151120 - jnegro - INF-155 Library reorganized and mostly rewritten to clean up old/bad ideas.  This also helped INF-65 and 66
+20151120 - jnegro - INF-328 Output bug did not occur with new module from INF-155
+20151120 - jnegro - INF-357 Error handling problem with an expected missing key value.  fixed
+20151022 - jnegro - INF-64 As a systems engineer I find the logging to be sub-par.  Added more standard, robust logging.
+20151019 - jnegro - INF-142 Password prompt was coming up on all runs of CLI
+20151019 - jnegro - INF-138 bug when trying to delete an A record when multiple records have been found
+20151016 - jnegro - INF-110 Fixed issues with HTTPRedirect resource, Added services helper to search for HTTPRedirect
+20151016 - jnegro - INF-137 Changed inline password option to be a prompt

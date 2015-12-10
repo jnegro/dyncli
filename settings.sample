@@ -1,0 +1,30 @@
+#dyn login info - Avoid using these hardcoded items and opt for user envars
+#ACCOUNT = 'advancedigital'
+#USER = 'username'
+#PASSWORD = 'password'
+
+#Sets the maximum attempts to get a job status before prompting
+JOB_STATUS_MAX_ATTEMPTS = 5
+
+#Sets the multiplier to increase the interval of checking for job status
+JOB_STATUS_STANDOFF_MULTIPLIER = 2
+
+#Admin contact prefix
+ADMIN_CONTACT = "domains@{0}"
+
+#Syslog
+SYSLOG_ENABLED = 0
+
+#Default Linux syslog path.  Socket will be tried first if specified.
+#SYSLOG_ADDRESS = '/dev/log'
+
+#Default OSX/BSD syslog path.  Address will be used if SYSLOG_SOCKET is not specified
+# or if SYSLOG_SOCKET path does not exist
+#SYSLOG_ADDRESS = ('localhost',514)
+#Infoblox credentials
+#IB_USER = 'username'
+#IB_PASSWORD = 'password'
+#IB_HOST = 'https://275-sys-prod-infoblox-master-01.host.advance.net/wapi/v1.4/'
+
+#master_ip for Infoblox servers
+IB_MASTER_IP = '69.2.97.10'

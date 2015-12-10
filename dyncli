@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+#!/bin/bash
+
+: ${DT_ROOT}?"No DT_ROOT user environment variable set.  Please run install.sh first"}
+
+$DT_ROOT/env/bin/python $DT_ROOT/dyncli.py "$@"
+=======
 #!/usr/bin/env python
 import json
 import argparse
@@ -312,3 +319,4 @@ if __name__ == '__main__':
     error('No arguments provided.')
 
   end_session(config['token'])
+>>>>>>> 943c862f0bb8d09b89b5280f58001ff310f927a7
