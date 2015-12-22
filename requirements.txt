@@ -1,7 +1,2 @@
 argparse
-<<<<<<< HEAD
 DynectDNS
-pyinfoblox
-=======
-requests
->>>>>>> 943c862f0bb8d09b89b5280f58001ff310f927a7
