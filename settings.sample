@@ -21,10 +21,3 @@ SYSLOG_ENABLED = 0
 #Default OSX/BSD syslog path.  Address will be used if SYSLOG_SOCKET is not specified
 # or if SYSLOG_SOCKET path does not exist
 #SYSLOG_ADDRESS = ('localhost',514)
-#Infoblox credentials
-#IB_USER = 'username'
-#IB_PASSWORD = 'password'
-#IB_HOST = 'https://275-sys-prod-infoblox-master-01.host.advance.net/wapi/v1.4/'
-
-#master_ip for Infoblox servers
-IB_MASTER_IP = '69.2.97.10'
