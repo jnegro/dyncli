@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #DynCLI
 
 DynCLI is a command line client written in Python for making changes to your Managed DNS account via DynectAPI.
